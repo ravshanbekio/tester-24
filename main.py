@@ -4,6 +4,5 @@ def main():
     get_url = input("Enter the URL of the API: ")
     return redirect2method(get_url)
 
-
 if __name__ == "__main__":
     main()

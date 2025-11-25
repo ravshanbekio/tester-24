@@ -1,0 +1,21 @@
+{
+    "/users/get_users": {
+        "method": "GET",
+        "status_code": 200,
+        "result": []
+    },
+    "/users/get_user": {
+        "method": "GET",
+        "status_code": 400,
+        "result": {
+            "detail": "User not found"
+        }
+    },
+    "/vacancies/get_vacancy": {
+        "method": "GET",
+        "status_code": 400,
+        "result": {
+            "detail": "ID or Title is missing!"
+        }
+    }
+}
